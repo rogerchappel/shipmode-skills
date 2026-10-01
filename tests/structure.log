@@ -1,0 +1,25 @@
+shipmode-handoff-release: exit 0
+Skill is valid!
+
+shipmode-plan-parallel: exit 0
+Skill is valid!
+
+shipmode-reproduce-bug: exit 0
+Skill is valid!
+
+shipmode-review-evidence: exit 0
+Skill is valid!
+
+shipmode-scope-build: exit 0
+Skill is valid!
+
+validate_pack.py: exit 0
+test_candidate_has_distinct_gap (__main__.PackChecks.test_candidate_has_distinct_gap) ... ok
+test_fixture_has_real_boundary_failure (__main__.PackChecks.test_fixture_has_real_boundary_failure) ... ok
+test_root_links (__main__.PackChecks.test_root_links) ... ok
+test_skill_structure (__main__.PackChecks.test_skill_structure) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK

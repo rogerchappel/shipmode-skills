@@ -1,0 +1,8 @@
+$ python3 -m unittest -v test_existing.py
+exit_status: 0
+test_title_match (test_existing.ExistingTests.test_title_match) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK

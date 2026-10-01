@@ -1,0 +1,31 @@
+$ python3 focused_checks.py tasks.py
+exit_status: 1
+test_case_insensitive_substring (__main__.FocusedChecks.test_case_insensitive_substring) ... ok
+test_empty_shows_all (__main__.FocusedChecks.test_empty_shows_all) ... FAIL
+test_empty_task_input (__main__.FocusedChecks.test_empty_task_input) ... ok
+test_inputs_unchanged (__main__.FocusedChecks.test_inputs_unchanged) ... ok
+test_padded_nonblank (__main__.FocusedChecks.test_padded_nonblank) ... ok
+test_whitespace_shows_all (__main__.FocusedChecks.test_whitespace_shows_all) ... ok
+
+======================================================================
+FAIL: test_empty_shows_all (__main__.FocusedChecks.test_empty_shows_all)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/shipmode-review-trial/focused_checks.py", line 16, in test_empty_shows_all
+    self.assertEqual(search_tasks(self.tasks, ""), self.tasks)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [] != [{'title': 'Ship demo', 'id': 1}, {'title'[61 chars]: 3}]
+
+Second list contains 3 additional elements.
+First extra element 0:
+{'title': 'Ship demo', 'id': 1}
+
+- []
++ [{'id': 1, 'title': 'Ship demo'},
++  {'id': 2, 'title': 'Write notes'},
++  {'id': 3, 'title': 'Straße checklist'}]
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1)

@@ -1,0 +1,9 @@
+{
+  "source": "<pack-root>/fixtures/task-search",
+  "sha256": {
+    "brief.md": "1722492bcdbf4960e670993afdccb8705dc529e95f0687e44d8cb7ef44db0ffe",
+    "tasks.py": "39efca635c2423355e181c232abff4ee77a38e1f83b0b906f29720c6dd4674ab",
+    "review_candidate.py": "1c44f6c7de0dde83ceb2571f29757f35fdd7bd846920501fb9f7b3b3e42c946f",
+    "test_existing.py": "b5bee959c4c9285ff764071a861f7f7d6ed80854b80fcec40fcfe706b90854ac"
+  }
+}
